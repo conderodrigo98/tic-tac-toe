@@ -1,0 +1,59 @@
+body{
+  background-image:url("https://www.imageupload.co.uk/images/2017/06/17/tictactoe.png");
+}
+
+h1{
+  text-align:center;
+  font-family: 'Indie Flower';
+  font-size:7em;
+  color:#36454f;
+}
+
+p{
+  font-family:"Indie Flower";
+  font-size:15em;
+  color:rgba(0,0,0,0);
+  margin-bottom:-45%;
+  transition-duration: 0.5s;
+}
+
+.row{
+  margin-left:30%;
+  margin-right:20%;
+}
+
+.turnSign{
+  background-color:#3669FA;
+  width:10%;
+  height:auto;
+  position:absolute;
+  top:25%;
+  left:85%;
+  border-color:#36454f;
+  border-style:outset;
+  text-align:center;
+  font-familiy:"Indie Flower";
+  color:#fac736;
+  font-size:2em;
+}
+
+h4{
+  text-align:center;
+  font-size:4em;
+  font-family:"Indie Flower";
+}
+
+.win-img{
+  width:100%;
+  height:auto;
+}
+
+.tie-img{
+  width:80%;
+  height:auto;
+  margin-left:10%;
+}
+
+.fade{
+  transition: opacity 3s;
+}
