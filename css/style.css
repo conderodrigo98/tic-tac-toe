@@ -17,6 +17,10 @@ p{
   transition-duration: 0.5s;
 }
 
+p:hover{
+  cursor:pointer;
+}
+
 .row{
   margin-left:30%;
   margin-right:20%;
@@ -54,46 +58,20 @@ h4{
   margin-left:10%;
 }
 
+.lose-img{
+  width:100%;
+  height:auto;
+}
+
 .fade{
   transition: opacity 3s;
 }
 
-@media only screen and (max-width:480px){
-  body{
-    background-image:url("https://www.imageupload.co.uk/images/2017/07/10/tictactoemobile.png");
-    background-size: 75%;
-  }
+h3{
+  text-align:center;
+}
 
-  h1{
-    font-size:5em;
-    margin-bottom:10%;
-    margin-left:-10%;
-  }
-
-  p{
-    font-size:8em;
-  }
-
-  .row{
-    margin-left:8%;
-    margin-right:15%;
-    margin-top:-5%;
-  }
-
-  .turnSign{
-    top:75%;
-    left:20%;
-    width:50%;
-  }
-
-  h4{
-    font-size:3em;
-  }
-
-  .modal{
-    top:10%;
-    left:8%;
-    width:75%;
-  }
-
+.singleModeBtn:hover,.multiModeBtn:hover,.XSignBtn:hover,.OSignBtn:hover{
+  text-shadow: 0 0 3px #ffcf40;
+  cursor:pointer;
 }

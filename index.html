@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
   <title>Tic-Tac-Toe Game</title>
@@ -14,13 +14,13 @@
 </head>
 
 <body>
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
   
 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<script src="https://use.fontawesome.com/7ccc75d0f8.js"></script>
 
 <div class="container-fluid">
   
+  <!-- Main body -->
   <h1>Tic-Tac-Toe</h1>
   
   <div class="row row1">
@@ -102,12 +102,53 @@
   
     </div>
   </div>
+
+  <!-- Lose sign -->
+  
+  <div id="lose-sign" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">You have lost!</h4>
+        </div>
+        <div class="modal-body">
+          <img class="responsive-img lose-img" alt="You have lost :(" src="https://moneydomdirectory.net/upload/headerpicture/c3a13e2325a9f337375b8e091303ad34.jpeg"></img>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Keep playing</button>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+  <!-- Menu -->
+  <div id="menu" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Tic-Tac-Toe</h4>
+        </div>
+        <div class="modal-body">
+          <h2>Mode selection:</h2>
+          <h3>Single Player <span class="singleModeBtn"><i class="fa fa-male" aria-hidden="true"></i><i class="fa fa-laptop" aria-hidden="true"></i></span> | <span class="multiModeBtn"><i class="fa fa-male" aria-hidden="true"></i><i class="fa fa-male" aria-hidden="true"></i></span> Multiplayer</h3>
+          <h2>X´s or O´s ?</h2>
+          <h3>Player 1 plays with: <span class="OSignBtn">O</span> | <span class="XSignBtn">X</span></h3>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Start playing</button>
+        </div>
+      </div>
+  
+    </div>
+  </div>
   
 </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
 
-    <script src="js/index.js"></script>
+    <script  src="js/index.js"></script>
 
 </body>
 </html>
